@@ -1,0 +1,4 @@
+# assignment-psiborg
+
+To run this app 
+> npm install && npm start
