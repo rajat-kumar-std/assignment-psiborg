@@ -1,0 +1,27 @@
+.header-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95vw;
+  margin: 0 auto;
+}
+
+.hamburger-icon {
+  position: absolute;
+  left: 2rem;
+  font-size: 30px;
+  color: #da4701;
+  cursor: pointer;
+}
+
+.cart-title {
+  color: #da4701;
+}
+
+.logo-img {
+  position: absolute;
+  right: 2rem;
+  height: 2.5rem;
+  width: 2.5rem;
+}

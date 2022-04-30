@@ -1,0 +1,99 @@
+.form-container {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://images.unsplash.com/photo-1586142089326-5f945b0f2687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #ffffff80;
+  padding: 3rem 2rem 1.5rem;
+  border-radius: 20px;
+}
+
+::placeholder {
+  color: #565656;
+}
+
+.input {
+  font-size: large;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+}
+
+.email-box,
+.password-box {
+  border-bottom: 2px solid #565656;
+}
+
+.email-box:focus {
+  border-bottom-color: #cf1b1b;
+  background-color: red;
+}
+
+.icon {
+  color: #565656;
+}
+
+.login-btn {
+  background-color: #f51919;
+  color: white;
+  padding: 5px 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-btn:focus,
+.login-btn:hover {
+  background-color: #cf1b1b;
+}
+
+.check-icon {
+  cursor: pointer;
+}
+
+.check {
+  color: #25f725;
+}
+
+.rem-for-box {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 0.8rem;
+  gap: 2rem;
+  color: #565656;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+label {
+  margin-left: 2px;
+}
+
+.signup-msg {
+  color: #565656;
+  font-size: 0.9rem;
+  transform: translateY(-0.9rem);
+}
+
+.signup-msg label {
+  text-decoration: underline;
+  cursor: pointer;
+}
